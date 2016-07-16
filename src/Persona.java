@@ -3,9 +3,6 @@ import com.sun.org.apache.bcel.internal.generic.NEW;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by professor on 28/06/2016.
- */
 public class  Persona implements  Comparable<Persona>{
 
 

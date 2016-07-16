@@ -32,7 +32,7 @@ public class ProgramaPrincipal {
             System.out.println("2. Nombre");
             System.out.println("3. DNI");
             System.out.println("4. Mostrar todas las entradas");
-            System.out.println("5. Ordenar por edad");
+            System.out.println("5. Ordenar por Nombre");
             System.out.println("6. Salir");
 
             int filtro=sc.nextInt();
@@ -90,11 +90,6 @@ public class ProgramaPrincipal {
                     //ordenar por id
                     for(Long idPersona: mapId.keySet()) {
 
-                       //System.out.println("Los id son : "+idPersona);
-                       // System.out.println(mapId.get(idPersona));
-                       // Persona personaActual = mapId.get(idPersona);
-
-                        //System.out.println(personaActual);
                     }
                     //ordenar por nombre añadir el trremap arriba donde antes estaba el hashmap
                     for(String nombrePersona:mapNombre.keySet()) {

@@ -1,6 +1,4 @@
-/**
- * Created by professor on 29/06/2016.
- */
+
 public class StringComparable {
 
     public static void main(String[] args) {
